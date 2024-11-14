@@ -16,7 +16,7 @@ import java.util.Objects;
 public class FileStorageService {
 
     //Folder to store the files
-    private static final String STORAGE_DIRECTORY = "D:\\Spring Boot\\Spring-Boot-File-Upload\\Storage";
+    public static final String STORAGE_DIRECTORY = "D:\\Spring Boot\\Spring-Boot-File-Upload\\Storage";
 
     public void saveFile(MultipartFile file) throws IOException {
 
